@@ -1,3 +1,10 @@
+.search-bar{
+    width:481.99px;
+    height:43.99px;
+}
+
+
+
 .form-search{
     text-align:center;
 }
@@ -8,7 +15,7 @@
     text-align: center;
 }
 
-
+/*Basic horizontal navigation bar with dark background colorand change the background color of the links when the user moves the mouse over them*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,11 +24,12 @@ ul {
     background-color: #333;
   }
   
+ 
   li {
     float: left;
   }
   
-  li a {
+   li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,15 +39,14 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: rgba(16, 146, 163, 0.596);
+    background-color: rgba(12, 100, 112, 0.151);
   }
 
-
+/* gray horizontal navigation bar with a thin gray border*/
   ul {
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: #f5efefcb;
   }
-  
   li a {
     color: #666;
   }
