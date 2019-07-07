@@ -1,52 +1,70 @@
 .search-bar{
-    width:481.99px;
-    height:43.99px;
+  width:481.99px;
+  height:43.99px;
+  
+  background-color: transparent;
 }
 
 
 
 .form-search{
-    text-align:center;
+  text-align:center;
 }
 
 
 
 .doodle{
-    text-align: center;
+  text-align: center;
 }
 
 /*Basic horizontal navigation bar with dark background colorand change the background color of the links when the user moves the mouse over them*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
- 
-  li {
-    float: left;
-  }
-  
-   li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgba(12, 100, 112, 0.151);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li {
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(12, 100, 112, 0.151);
+}
 
 /* gray horizontal navigation bar with a thin gray border*/
-  ul {
-    border: 1px solid #e7e7e7;
-    background-color: #f5efefcb;
-  }
-  li a {
-    color: #666;
-  }
+ul {
+  border: 1px solid #e7e7e7;
+  background-color: #f5efefcb;
+}
+li a {
+  color: #666;
+}
+
+/*Submit search button */
+.submit-search{
+  margin-right:200px;
+}
+
+
+
+
+
+.submit-lucky{
+  margin-left:210px;
+  margin-top: -36px;
+  margin-right:60px;
+  
+}

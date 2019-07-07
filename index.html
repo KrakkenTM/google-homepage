@@ -8,26 +8,46 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="navbar"><ul>
-        <li><a href="Homet.asp">Home</a></li>
-        <li><a href="News.asp">Images</a></li>
-        <li><a href="Maps.asp">Maps</a></li>
-        <li><a href="Videos.asp">Videos</a></li>
-        <li><a href="News.asp">News</a></li>
-     </ul>
+<!-- Total div-->
+    <div class="navbar">
+        <ul>
+<!-- Top left Nav Bar-->      
+            <div class="top-left-nav">    
+                <li><a href="#Homet">Home</a></li>
+                <li><a href="#News">Images</a></li>
+            </div>
+
+<!-- Top right Nav Bar-->         
+            <div class="top-right-nav">
+                <li><a href="#Maps">Maps</a></li>
+                <li><a href="#Videos">Videos</a></li>
+                <li><a href="#News">News</a></li>
+            </div>
+        </ul>
     </div>
     
     <div class="doodle">
-        <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"  width="881" height="400" style="vertical-align:middle">
+        <img src="https://www.google.com/logos/doodles/2019/eddie-aikaus-73rd-birthday-5674205201825792.2-2xa.gif">
     </div>
-        <form action="http://www.google.com/search" method="get" class="form-search">
+        
+            <form action="http://www.google.com/search" method="get" class="form-search">
             <input type="text" name="search" class="search-bar"/>
             <br><br><br>
-            <input type="submit" value="search Google"/>
-            
-            <input type="submit" value="I'm feeling lucky"
+            <div class="submit-search">
+                    <input type="submit" value="search Google" style="
+                    width: 166px;
+                    height: 36px;
+                ">
+            </div>
+            <div class="submit-lucky">
+                    <input type="submit" value="I'm feeling lucky" style="
+                    width: 166px;
+                    height: 36px;
+                    ">
+            </div>
         </form>
-
+    
+    <br>
 
  
 
